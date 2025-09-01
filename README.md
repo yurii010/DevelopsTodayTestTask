@@ -19,11 +19,11 @@ There are 3 components:
 The Input component has the following options:
 
 - **type** (`text | number | password`, default `text`) – type of input.  
-  ![Text input](image.png)
+  ![Text input](./assets/image.png)
 - **clearable** (`boolean`, default `false`) – adds a button to clear the input.  
-  ![Number input](image-1.png)
+  ![Number input](./assets/image-1.png)
 - **placeholder** (`string`, default empty) – placeholder text inside the input.  
-  ![Password input](image-2.png)
+  ![Password input](./assets/image-2.png)
 
 ---
 
@@ -38,12 +38,12 @@ The Toast component has the following options:
 - **show** (`boolean`, default `false`) – trigger to show the toast.
 
 In Storybook, you can toggle this option to display the toast:  
-![Storybook option](image-6.png)
+![Storybook option](./assets/image-6.png)
 
 Toast types:  
-![Success toast](image-3.png)  
-![Error toast](image-4.png)  
-![Info toast](image-5.png)
+![Success toast](./assets/image-3.png)  
+![Error toast](./assets/image-4.png)  
+![Info toast](./assets/image-5.png)
 
 ---
 
@@ -56,4 +56,4 @@ The SidebarMenu component has one option:
     - **onClick** (`function`, optional) – callback when the element is clicked
     - **children** (`array` of elements, optional) – submenu items, same structure as main elements
 
-![Sidebar menu](image-7.png)
+![Sidebar menu](./assets/image-7.png)
