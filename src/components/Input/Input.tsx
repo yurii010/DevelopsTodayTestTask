@@ -10,7 +10,7 @@ export interface InputProps {
     placeholder?: string;
 }
 
-export const Input = ({ type = "text", clearable = false, placeholder }: InputProps) => {
+export const Input = ({ type = "text", clearable = false, placeholder = "" }: InputProps) => {
     const [value, setValue] = useState("");
     const [showPassword, setShowPassword] = useState(false);
 
