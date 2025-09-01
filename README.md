@@ -19,10 +19,10 @@ There are 3 components:
 The Input component has the following options:
 
 - **type** (`text | number | password`, default `text`) – type of input.  
-  ![Text input](./assets/image.png)
 - **clearable** (`boolean`, default `false`) – adds a button to clear the input.  
-  ![Number input](./assets/image-1.png)
 - **placeholder** (`string`, default empty) – placeholder text inside the input.  
+  ![Text input](./assets/image.png)
+  ![Number input](./assets/image-1.png)
   ![Password input](./assets/image-2.png)
 
 ---
